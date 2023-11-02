@@ -1,0 +1,219 @@
+{
+  "id": "97f4a09c-c0c1-44d1-9e26-5ec71867c415",
+  "version": "2.0",
+  "name": "Rozetka",
+  "url": "https://rozetka.com.ua/ua/",
+  "tests": [{
+    "id": "43e5b3b0-e3b9-4fcd-8665-44bcb60b5c52",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "c0f70867-0984-4b2d-b1fe-06bf0b93dae7",
+    "name": "Rozetka1",
+    "commands": [{
+      "id": "2b4729f5-f06a-43e6-b311-f72b9f28a5d1",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d6e938d-97ba-4cee-a407-7156a90e69ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Побутова техніка",
+      "targets": [
+        ["linkText=Побутова техніка", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(4) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Побутова техніка')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://bt.rozetka.com.ua/ua/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "587c81c5-173f-4f44-ac41-6ade0d97955e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.portal__heading",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e81bc0a-30a4-4712-b545-30b93968be74",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.portal__heading",
+      "targets": [
+        ["css=.portal__heading", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Побутова техніка')]", "xpath:innerText"]
+      ],
+      "value": "Побутова техніка"
+    }, {
+      "id": "de5dafe1-316b-4811-a1e7-f650f0ee49c7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//img[@alt='Холодильники'])[2]",
+      "targets": [
+        ["css=.portal-grid__cell:nth-child(3) .ng-lazyloaded", "css:finder"],
+        ["xpath=(//img[@alt='Холодильники'])[2]", "xpath:img"],
+        ["xpath=//li[3]/rz-list-tile/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c237c40-bbc2-4a28-b0bf-b153c5a61072",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(2) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(2) .goods-tile__title", "css:finder"],
+        ["xpath=//li[2]/rz-catalog-tile/app-goods-tile-default/div/div[2]/div/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Холодильник Whirlpool W7X 81O OX 0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57db0816-6446-4bb0-8024-2f3945ba914c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--green",
+      "targets": [
+        ["css=.button--green", "css:finder"],
+        ["xpath=(//button[@type='button'])[34]", "xpath:attributes"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/div[3]/rz-product-buy-btn/app-buy-button/button", "xpath:idRelative"],
+        ["xpath=//app-buy-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50aff567-4fee-4f38-8b5b-5feb3408b737",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_size_large > span",
+      "targets": [
+        ["css=.button_size_large > span", "css:finder"],
+        ["xpath=//rz-checkout-button/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "11528889-200d-4725-918b-623a871cadde",
+    "name": "Rozetka2",
+    "commands": [{
+      "id": "2b2dad14-d518-4adb-b855-2338e30db362",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b946bdf-ec75-4dcf-9fba-ae2036e59ee9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__button > .ng-tns-c814534352-1",
+      "targets": [
+        ["css=.header__button > .ng-tns-c814534352-1", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "812810a2-6820-4e89-a837-9cc7bb073b58",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Мої замовлення')])[2]",
+      "targets": [
+        ["css=.side-menu__item:nth-child(3) > .button", "css:finder"],
+        ["xpath=(//a[contains(text(),'Мої замовлення')])[2]", "xpath:link"],
+        ["xpath=//div[@id='cdk-overlay-1']/nav/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/cabinet/orders/')])[3]", "xpath:href"],
+        ["xpath=//div/div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e93881c-1bb6-4a67-9c1a-26c9084ae2c3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//main[@id='cabinet-content']/rz-cabinet-orders-routing/h1",
+      "targets": [
+        ["css=.cabinet__heading", "css:finder"],
+        ["xpath=//main[@id='cabinet-content']/rz-cabinet-orders-routing/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Мої замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aa121c1-3326-491b-8b94-3b049b68fb7a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.cabinet__heading",
+      "targets": [
+        ["css=.cabinet__heading", "css:finder"],
+        ["xpath=//main[@id='cabinet-content']/rz-cabinet-orders-routing/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Мої замовлення')]", "xpath:innerText"]
+      ],
+      "value": "Мої замовлення"
+    }]
+  }, {
+    "id": "fbe5c8aa-f9f5-41be-88fb-07fd700b1b6a",
+    "name": "Rozetka4",
+    "commands": [{
+      "id": "c3339638-c8ce-4834-80df-2d82e9f45a67",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0776a75a-21ce-463d-873c-740e293aa0de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__button > .ng-tns-c814534352-1 > .ng-tns-c814534352-1",
+      "targets": [
+        ["css=.header__button > .ng-tns-c814534352-1 > .ng-tns-c814534352-1", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "95378e20-75c8-477d-adab-79f4641d3088",
+      "comment": "",
+      "command": "click",
+      "target": "css=.side-menu__item:nth-child(5) > .button",
+      "targets": [
+        ["css=.side-menu__item:nth-child(5) > .button", "css:finder"],
+        ["xpath=(//button[@type='button'])[39]", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-0']/nav/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Розкрити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4250b540-97f2-4c4c-96c2-2a1420dada74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(2) > .button",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(2) > .button", "css:finder"],
+        ["xpath=(//a[contains(text(),'Переглянуті товари')])[2]", "xpath:link"],
+        ["xpath=//div[@id='cdk-overlay-0']/nav/div/div[2]/ul[3]/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/cabinet/recently-viewed/')])[2]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "060cfb55-841f-41ad-b1c3-3c31ca6f4c6c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cabinet__heading",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d565554a-4e6b-4b9b-9f89-a484ff1f0154",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["43e5b3b0-e3b9-4fcd-8665-44bcb60b5c52"]
+  }],
+  "urls": ["https://rozetka.com.ua/ua/"],
+  "plugins": []
+}
